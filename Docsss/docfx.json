@@ -2,8 +2,8 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md"
+       "files": [
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -16,12 +16,17 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+           "**/*.png",
+	          "**/*.jpg",
+	          "**/*.gif",
+	          "**/*.bmp",
+	          "_themes/**"
+
         ],
         "exclude": [
           "**/obj/**",
-          "Docsss/**"
+	          "_themes/DocPacker/**"
+
         ],
         "src": null,
         "dest": null
