@@ -1,0 +1,4 @@
+[submodule "themes for AzureRight"]
+	path = Docsss/_themes
+	url = https://github.com/JialinXin/DocsThemes
+	branch = live
